@@ -18,7 +18,7 @@ This project replicates Spotify's layout including sidebar navigation, trending 
 ### 📱 Mobile View - Main Content
 ![Mobile Main](demo/mob_view-1.png)
 
-### Short Video 
+## 📽️ Demo
 ![Preview](demo/demo.gif)
 
 ---
