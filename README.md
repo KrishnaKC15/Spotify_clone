@@ -5,8 +5,6 @@ This project replicates Spotify's layout including sidebar navigation, trending 
 
 ---
 
-## 📸 Preview
-
 ## 📸 Screenshots
 
 ### 💻 Desktop View
