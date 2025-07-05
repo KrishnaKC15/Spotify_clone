@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="icon" href="images/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <input type="checkbox" id="check-for-mobile">
+        <div class="sidebar">
+            <!-- Sidebar upper section Home and Search -->
+            <div class="sidebar-upper">
+                <label for="check-for-mobile" id="cross"><i class="fa-solid fa-xmark"></i></label>
+                <div class="first-box">
+                    <label for="home"><i class="fa-solid fa-house"></i></label>
+                    <a href="#" id="home" class="side-up">Home</a>
+                </div>
+                <div class="first-box">
+                    <label for="search" ><i class="fa-solid fa-magnifying-glass"></i></label>
+                    <a href="#" id="search" class="side-up">Search</a>
+                </div>
+            </div>
+
+            <!-- Your Library -->
+            <div class="sidebar-lower">
+                <div class="library">
+                    <span>
+                        <img src="images/library_icon.png" id="lib-icon" alt="" >
+                        <span id="library-text">Your Library</span>
+                    </span>
+                    <span>
+                        <a href="#" id="plus-icon"><i class="fa-solid fa-plus"></i></a>
+                        <a href="#" id="side-arrow-icon"><i class="fa-solid fa-arrow-right"></i></a>
+                    </span>
+                    <span><button id="explore-mob" class="btn "> Explore premium</button></span>
+                    
+                </div>
+
+                <!-- cards -->
+                <div class="side-cards">
+                    <div class="card-body">
+                        <h4 class="heading-side-cards">Create Your First Playlist</h4>
+                        <p class="intro-side-card">It's easy, we'll help you</p>
+                        <button class="btn btn-side ">Create Playlist</button>
+                    </div>
+                </div>
+
+                <div class="side-cards">
+                    <div class="card-body">
+                        <h4 class="heading-side-cards">Let's find some podcasts to follow</h4>
+                        <p class="intro-side-card">We'll keep you updated on new episodes</p>
+                        <button class="btn btn-side" >Browse podcasts</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- mainbox -->
+        <div class="main-box">
+            <!-- top -->
+            <div class="main-box-top">
+                <label for="check-for-mobile" id="menu"><i class="fa-solid fa-bars"></i></label>
+                <a id="backward-arrow" class="arrow "   href="#"><img src="images/backward_icon.png" class="arrow-png" alt=""></a>
+                <a id="forward-arrow" class="arrow "  href="#"><img src="images/forward_icon.png" class="arrow-png" alt=""></a>
+                
+                <button id="explore-lap" class="btn "> Explore premium</button>
+                <button id="install" class="btn "><i class="fa-regular fa-circle-down"></i> Install App</button>
+                <a href="#" id="profile" class=""><i  class="fa-regular fa-user"></i></a>
+            </div>
+
+            
+            <div class="main-box-main">
+                <!-- Recently Played -->
+                <div class="sections">
+                    <div class="card-head">
+                    <h3>Recently Played</h3>
+                    </div>
+                    <div class="card-group">
+                        <div class="card" id="card-1">
+                            <div class="card-img"><img class="img" src="images/card1img.jpeg" alt=""></div>
+                            <div class="main-card-body">
+                                <h4>Top 50 - Global</h4>
+                                <p class="card-text">Your Daily updates of the most played tracks</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+
+                <!-- Trending now near you -->
+                <div class="sections">
+                    <div class="card-head">
+                        <h3>Trending now near you</h3>
+                    </div>
+                    <div class="card-group">
+                        <div class="card" id="card-2">
+                            <div class="card-img"><img class="img" src="images/card2img.jpeg" alt=""></div>
+                            <div class="main-card-body">
+                                <h4>Indie India</h4>
+                                <p class="card-text">Best of Indian Indie scene</p>
+                            </div>
+                        </div>
+                        
+                        <div class="card" id="card-3">
+                            <div class="card-img"><img class="img" src="images/card3img.jpeg" alt=""></div>
+                            <div class="main-card-body">
+                                <h4>Indie India</h4>
+                                <p class="card-text">Best of Indian Indie scene</p>
+                            </div>
+                        </div>
+                        <div class="card" id="card-4">
+                            <div class="card-img"><img class="img" src="images/card4img.jpeg" alt=""></div>
+                            <div class="main-card-body">
+                                <h4>Indie India</h4>
+                                <p class="card-text">Best of Indian Indie scene</p>
+                            </div>
+                        </div>
+                        <div class="card" id="card-5">
+                            <div class="card-img"><img class="img" src="images/card3img.jpeg" alt=""></div>
+                            <div class="main-card-body">
+                                <h4>Indie India</h4>
+                                <p class="card-text">Best of Indian Indie scene</p>
+                            </div>
+                        </div>
+                        <div class="card" id="card-6">
+                            <div class="card-img"><img class="img" src="images/card4img.jpeg" alt=""></div>
+                            <div class="main-card-body">
+                                <h4>Indie India</h4>
+                                <p class="card-text">Best of Indian Indie scene</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- Featured Charts -->
+                <div class="sections">
+                    
+                    <div class="card-head">
+                        <h3>Featured Charts</h3>
+                    </div>
+                    <div class="card-group">
+                        <div class="card" id="card-7">
+                            <div class="card-img"><img class="img" src="images/card5img.jpeg" alt=""></div>
+                            <div class="main-card-body">
+                                <h4>Indie India</h4>
+                                <p class="card-text">Best of Indian Indie scene</p>
+                            </div>
+                        </div>
+                        <div class="card" id="card-8">
+                            <div class="card-img"><img class="img" src="images/card6img.jpeg" alt=""></div>
+                            <div class="main-card-body">
+                                <h4>Indie India</h4>
+                                <p class="card-text">Best of Indian Indie scene</p>
+                            </div>
+                        </div>
+                        <div class="card" id="card-9">
+                            <div class="card-img"><img class="img" src="images/card1img.jpeg" alt=""></div>
+                            <div class="main-card-body">
+                                <h4>Indie India</h4>
+                                <p class="card-text">Best of Indian Indie scene</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+
+                <hr>
+            </div>
+        </div>
+        <!-- botttom track -->
+        <div class="footer">
+            <!-- controls -->
+            <div class="controls">
+                <a href="" class="control-icons"><img class="control-icons-img c-e"  src="images/player_icon1.png" alt=""></a> 
+                <a href="" class="control-icons"><img class="control-icons-img c-m"  src="images/player_icon2.png" alt=""></a> 
+                <a href="" class="control-icons"><img class="control-icons-img c-p"  src="images/play_musicbar.png" alt=""></a> 
+                <a href="" class="control-icons"><img class="control-icons-img c-m"  src="images/player_icon4.png" alt=""></a>  
+                <a href="" class="control-icons"><img class="control-icons-img c-e"  src="images/player_icon5.png" alt=""></a> 
+            </div>
+
+            <!-- music_bar -->
+            <div class="music-bar">
+                <p class= "player" id="player-start">00:00</p>
+                <input type="range" id="range">
+                <p class= "player" id="player-end">03:33</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
