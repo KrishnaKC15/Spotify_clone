@@ -77,5 +77,3 @@ This project makes strong use of **modern CSS techniques**:
 
 ---
 
-## 📁 Project Structure
-
