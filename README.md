@@ -13,10 +13,10 @@ This project replicates Spotify's layout including sidebar navigation, trending 
 ![Desktop](images/demo.png)
 
 ### 📱 Mobile View - Menu Open
-![Mobile Menu](images/mob_view-2.png.png)
+![Mobile Menu](images/mob_view-2.png)
 
 ### 📱 Mobile View - Main Content
-![Mobile Main](images/mob_view-1.png.png)
+![Mobile Main](images/mob_view-1.png)
 
 
 ![Preview](images/demo.gif)
