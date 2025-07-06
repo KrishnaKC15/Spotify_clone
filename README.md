@@ -2,7 +2,8 @@
 
 A **responsive frontend clone** of the Spotify Web Player built using **HTML5** and **CSS3**.  
 This project replicates Spotify's layout including sidebar navigation, trending cards, featured charts, and a static footer music player.
-
+## Note
+Some features are not same as spotify website because this is a clone and some experiments have  been done in order to try to make it look more good and appealing .
 ---
 
 ## 📸 Screenshots
